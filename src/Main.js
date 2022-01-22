@@ -5,8 +5,10 @@ const Container = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-image: url("./image/background.png");
-  background-size: contain;
+  height: 100vh;
+  opacity: 0.9;
+  background-image: url("/background.png");
+  background-size: cover;
 `;
 
 const Wrapper = styled.div`
