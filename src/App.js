@@ -1,15 +1,20 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Main from "./Main";
-import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
+import Shop from "./Shop";
+import React from "react";
+import NotFound from "./NotFound";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
-    <BrowserRouter>
+    <Router>
       <Switch>
-        <Route path="/" component={Main}></Route>
+        <Route exact path="/" component={Main} />
+        <Route path="/shop" component={Shop} />
+        <Route component={NotFound} />
       </Switch>
-    </BrowserRouter>
+    </Router>
   );
 }
 

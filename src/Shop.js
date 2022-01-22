@@ -18,23 +18,23 @@ const Wrapper = styled.div`
 `;
 
 const Button = styled.button`
-  width: 100px;
+  width: 50px;
   height: 50px;
-  margin-left: 1000px;
+  margin-left: 100px;
   margin-top: 20px;
 `;
 
-function Main() {
+function Shop() {
   return (
     <Container>
       <Wrapper>
-        메인화면
-        <Link to="/shop">
-          <Button>상점</Button>
+        상점
+        <Link to="/">
+          <Button>←</Button>
         </Link>
       </Wrapper>
     </Container>
   );
 }
 
-export default Main;
+export default Shop;
