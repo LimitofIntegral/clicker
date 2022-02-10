@@ -149,7 +149,7 @@ function Main() {
           </SButton>
         </Top>
         <Count>
-          exp {click} / {exp}
+          [Level {level}] exp {click} / {exp}
         </Count>
 
         <Cat>
