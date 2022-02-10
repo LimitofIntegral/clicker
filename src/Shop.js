@@ -11,8 +11,8 @@ const Container = styled.div`
 `;
 
 const Wrapper = styled.div`
-  width: 1200px;
-  height: 800px;
+  width: 1100px;
+  height: 620px;
   margin-top: 8vh;
   background-color: #d1d3c4;
 `;
